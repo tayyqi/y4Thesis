@@ -3971,6 +3971,7 @@ textarea.form-control-lg {
 .main::after{
   clear: both;
 }
+/* side bar contents navigation */
 
 .contents{
   width: 25%;
