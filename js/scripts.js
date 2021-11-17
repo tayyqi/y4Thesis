@@ -1,6 +1,6 @@
 const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('contents .container ul li');
-console.log(navLi)
+// console.log(navLi)
 
 window.addEventListener('scroll', ()=>{
     let current = '';
