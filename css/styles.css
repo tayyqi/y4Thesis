@@ -3956,6 +3956,66 @@ textarea.form-control-lg {
   list-style: none;
 }
 
+.wrapper {
+  display:flex;
+  width: 100%;
+  margin: 0 0;
+  /* justify-content: space-between; */
+}
+.main{
+  width: 60%;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+.main::after{
+  clear: both;
+}
+
+.contents{
+  width: 25%;
+  height: 25vh;
+  min-height: 200px;
+  top: 5%;
+}
+
+contents .container{
+  width: 300px;
+  max-width: 300px;
+  margin: 0 0;
+  text-align: left;
+  padding: 20px;
+
+  overflow: auto;
+  /* position: -webkit-sticky; */
+  position: sticky;
+  top: 10%;
+}
+
+contents .container ul{
+  line-height: 1.5em;
+  list-style: none;
+}
+contents .container ul li{
+  padding-bottom: 10px;
+}
+
+contents .container ul li a{
+  color: grey;
+  text-decoration: none;
+}
+contents .container ul li.active{
+  font-size: large;
+  font-weight:bold;
+  transition: 0.3 ease font-size font-weight;
+}
+
+contents .container ul li.hover{
+  font-size: large;
+  font-weight:bold;
+  transition: 0.3 ease font-size font-weight;
+}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
